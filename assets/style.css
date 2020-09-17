@@ -1,0 +1,19 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+li a{
+    font-weight: 900;
+    color: #181a1b;
+}
+li a:hover{
+    color: #181a1b;
+}
+
+.mcs-heading h1{
+    margin: 20vh 0 0 0;
+    width: 60vw;
+    font-weight: 900;
+    font-size: 7em;
+    text-transform: uppercase;
+}

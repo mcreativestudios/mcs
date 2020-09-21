@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,11 +19,50 @@ li a:hover{
     color: #181a1b;
 }
 
-.mcs-heading h1{
+h1{
     text-align: center;
-    margin: 20vh 0 0 0;
-    width: 100vw;
+    margin: 5vh auto;
+    width: 60vw;
     font-weight: 900;
-    font-size: 7em;
+    font-size: 8vw;
     text-transform: uppercase;
+}
+h2{
+    color: #ffffff;
+    text-align: center;
+    margin: 2% auto;
+    font-weight: 900;
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+.featured{
+    z-index: 1;
+    position: absolute;
+    left: 20vw;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top center;
+    margin: 2vh auto;
+    justify-content: center;
+    height: 60%;
+    width: 60%;
+    margin: 0 auto;
+}
+.featured img{
+    height: auto;
+    width: 100%;
+}
+.featured-work{
+    color: #ffffff;
+    z-index: -0;
+    position: absolute;
+    top: 95vh;
+    width: 100%;
+    background-color: #181a1b;
+    height: 500px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.mcs-margin{
+    margin: 400px 0 0 0;
 }

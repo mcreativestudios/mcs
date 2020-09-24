@@ -10,6 +10,12 @@ body{
 nav{
     margin: 2%;
     display: flex;
+    height: 35px;
+}
+section{
+    margin: 2%;
+    display: flex;
+    vertical-align: middle;
 }
 .brand img{
     flex: 1;
@@ -29,17 +35,27 @@ nav{
     font-weight: 600;
 }
 .hero-text{
+    width: 50%;
     display: flex;
-    flex: 1;    
+    flex-wrap: wrap;
+    margin: 10% 0;
+}
+.btn{
+    margin: 5% 0;
+    border: 2px solid;
+    border-color:  #00aedd;
+    border-radius: 30px;
+    padding: 10px 40px;
+    text-transform: uppercase;
 }
 .hero-img{
     display: flex;
-    flex: 1;
+    flex: 2;
 }
 h1{
-    width: 60vw;
+    margin: 5% 0;
     font-weight: 900;
-    font-size: 8vw;
+    font-size: 40pt;
     line-height: 100%;
     text-transform: uppercase;
 }

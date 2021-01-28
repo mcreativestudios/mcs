@@ -7,6 +7,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
 .mcs-nav{
     display: flex;
     justify-content: center;
@@ -30,7 +31,39 @@ body{
 }
 .mcs-footer{
     background-color: #1c1e20;
-    padding: 3% 0%;
+    padding: 5% 0%;
+}
+.mcs-footer a{
+  text-decoration: none;
+}
+.mcs-footer-menu h1{
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.mcs-footer-menu a, h1:hover{
+  color: #45ADD7;
+}
+.mcs-list li, a{
+  text-align: left;
+  margin: 0px;
+  list-style: none;
+  color: #636363;
+  text-decoration: none;
+}
+.mcs-list li, a:hover{
+  color: #45ADD7;
+}
+.mcs-list h4{
+  color: white;
+  font-size: 12pt;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.mcs-brand-footer img{
+width: 100%;
+height: auto;
 }
 .mcs-navheader img, h5{
   display: grid;
@@ -75,7 +108,7 @@ body{
   }
   
 .mcs-navbar a:hover, .mcs-dropdown:hover .mcs-dropbtn {
-    background-color:#ddd;
+  color:#45ADD7;
   }
   
 .mcs-dropdown-content {
@@ -88,12 +121,7 @@ body{
     z-index: 1;
   }
   
-.mcs-dropdown-content .mcs-header {
-    background: red;
-    padding: 16px;
-    color: white;
-}
-  
+ 
 .mcs-dropdown:hover .mcs-dropdown-content {
     display: block;
 }
@@ -122,7 +150,7 @@ body{
   }
   
   .mcs-column a:hover {
-    background-color: #ddd;
+    color: #45ADD7;
   }
   
   /* Clear floats after the columns */

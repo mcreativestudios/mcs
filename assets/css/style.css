@@ -19,29 +19,46 @@ body{
     display: flex;
     justify-content: center;
 }
-.mcs-social-media{
-    display: flex;
-    justify-content: center;
+.mcs-social-media img{
+  height: 30px;
+  width: auto;
+  float: left;
+  display: grid;
+  align-items: center;
+  place-self: center stretch;
+  margin: 0 15px;
 }
 .mcs-footer{
     background-color: #1c1e20;
     padding: 3% 0%;
 }
-
+.mcs-navheader img, h5{
+  display: grid;
+  place-items: center stretch;
+  font-weight: 900;
+  text-transform: uppercase;
+}
 .mcs-navbar {
+  margin: auto 0;
     overflow: hidden;
+    vertical-align: middle;
+    place-content: center;
   }
   
 .mcs-navbar a {
+  font-weight: 800;
+  text-transform: uppercase;
     float: left;
     font-size: 16px;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 16px;
     text-decoration: none;
   }
   
 .mcs-dropdown {
+  font-weight: 800;
+  text-transform: uppercase;
     float: left;
     overflow: hidden;
   }
@@ -51,10 +68,10 @@ body{
     border: none;
     outline: none;
     color: black;
-    padding: 14px 16px;
+    padding: 0x 16px;
     background-color: inherit;
     font: inherit;
-    margin: 0;
+    margin: 0px;
   }
   
 .mcs-navbar a:hover, .mcs-dropdown:hover .mcs-dropbtn {
@@ -66,7 +83,7 @@ body{
     position: absolute;
     background-color: white;
     width: 100%;
-    padding: 0 16%;
+    padding: 1% 16%;
     left: 0;
     z-index: 1;
   }
